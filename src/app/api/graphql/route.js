@@ -5,6 +5,7 @@ import { ApolloServer } from "@apollo/server";
 import { startServerAndCreateNextHandler } from "@as-integrations/next";
 
 const API_KEY = "7ccd1310134c7365d63e52adc46507b8";
+
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 const typeDefs = `#graphql
